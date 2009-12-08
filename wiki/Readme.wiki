@@ -26,7 +26,7 @@ $ sudo chmod +x /usr/local/bin/youtube-upload
 
 * Upload a video:
 
-youtube-upload email@gmail.com password somefile.flv "Title" "Description" Shows "tag1, tag2"
+youtube-upload myemail@gmail.com mypassword somefile.flv "Title" "Description" "Category" "tag1, tag2"
 
 = Feedback =
 
