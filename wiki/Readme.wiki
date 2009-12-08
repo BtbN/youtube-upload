@@ -5,8 +5,6 @@ _Youtube-upload is a simple command-line script to upload videos to youtube alon
 
 = Dependencies =
 
-To run youtube-upload you will need:
-
   * python (>= 2.5)
   * python-gdata (>= 1.2.4)
 
