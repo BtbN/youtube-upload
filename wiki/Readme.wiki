@@ -1,7 +1,7 @@
 #labels Featured
 = Introduction =
 
-_Youtube-upload a simple command-line script to upload videos to youtube.
+_Youtube-upload is a simple command-line script to upload videos to youtube along with some metadata.
 
 = Dependencies =
 
@@ -26,7 +26,9 @@ $ sudo chmod +x /usr/local/bin/youtube-upload
 
 * Upload a video:
 
-youtube-upload myemail@gmail.com mypassword somefile.flv "Title" "Description" "Category" "tag1, tag2"
+{{{
+$ youtube-upload myemail@gmail.com mypassword somefile.flv "Title" "Description" "Category" "tag1, tag2"
+}}}
 
 = Feedback =
 
