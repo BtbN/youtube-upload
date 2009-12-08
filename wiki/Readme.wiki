@@ -1,0 +1,32 @@
+#labels Featured
+= Introduction =
+
+_Youtube-upload a simple command-line script to upload videos to youtube.
+
+= Dependencies =
+
+To run youtube-upload you will need:
+
+  * Python (>= 2.5)
+  * Python-gdata
+
+= Download & Install =
+
+  * [http://code.google.com/p/youtube-upload/downloads/list From sources]:
+
+{{{
+$ wget http://youtube-upload.googlecode.com/files/youtube-upload-VERSION.tgz
+$ tar xvzf youtube-upload-VERSION.tgz
+$ cd youtube-upload-VERSION
+$ sudo bash setup.py install
+}}}
+
+= Usage examples =
+
+* Upload a video:
+
+youtube-upload email@gmail.com password somefile.flv "Title" "Description" Shows "simpsons, tvshows"
+
+= Feedback =
+
+If you find a bug or want to propose an enhancement open a new [http://code.google.com/p/youtube-upload/issues/ issue]. For other comments, suggestions, whatever, you can email me: tokland AT gmail.com.
