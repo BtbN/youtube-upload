@@ -1,9 +1,9 @@
 #labels Featured
 = Introduction =
 
-_Youtube-upload_ is a command-line application to upload videos to youtube along with some metadata. If the video does not comply with Youtube limitations (<100Mb and <10'), it will be automatically splitted before uploading.
+_Youtube-upload_ is a command-line script that uploads videos to youtube along with some metadata. If the video does not comply with Youtube limitations (<100Mb and <10'), it will be automatically splitted before uploading.
 
-_Youtube-upload_ should work on every platform given the dependencies can be matched (GNU/Linux, BSD, OS X, Microsoft Windows, ...). 
+_Youtube-upload_ should work on every platform that runs Python and FFmpeg (see _dependecies_ section).
 
 = Dependencies =
 
@@ -41,4 +41,6 @@ Tech Education Animals People Travel Entertainment Howto Sports Autos Music News
 
 = Feedback =
 
-If you find a bug or want to propose an enhancement open a new [http://code.google.com/p/youtube-upload/issues/ issue]. For other comments, suggestions, whatever, you can email me: tokland AT gmail.com.
+If you find a bug or want to propose an enhancement open a new [http://code.google.com/p/youtube-upload/issues/ issue]. 
+
+For other comments, suggestions, ideas, whatever, you can email me: tokland AT gmail.com.
