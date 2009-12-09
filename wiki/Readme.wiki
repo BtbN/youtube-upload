@@ -1,7 +1,9 @@
 #labels Featured
 = Introduction =
 
-_Youtube-upload_ is a command-line python script that uploads videos to youtube along with some metadata. If either the video is bigger than 100 Mbytes or longer than 10 minutes (Youtube limitations),  it previously splits the file into MKV chunks.
+_Youtube-upload_ is a command-line application to upload videos to youtube along with some metadata. If the video does not comply with Youtube limitations (<100Mb and <10'), it will be automatically splitted before uploading.
+
+_Youtube-upload_ should work on every platform given the dependencies can be matched (GNU/Linux, BSD, OS X, Microsoft Windows, ...). 
 
 = Dependencies =
 
