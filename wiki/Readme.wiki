@@ -1,7 +1,7 @@
 #labels Featured
 = Introduction =
 
-_Youtube-upload is a simple command-line script to upload videos to youtube along with some metadata.
+_Youtube-upload_ is a simple command-line that uploads videos to youtube along with some metadata.
 
 = Dependencies =
 
