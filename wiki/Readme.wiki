@@ -13,7 +13,7 @@ _Youtube-upload_ should work on every platform that runs Python and FFmpeg (see 
 
 = Download & Install =
 
-  * [http://code.google.com/p/youtube-upload/downloads/list From sources]:
+  * [http://code.google.com/p/youtube-upload/downloads/list From sources] (UNIX instructions):
 
 {{{
 $ wget http://youtube-upload.googlecode.com/files/youtube-upload-VERSION.tgz
