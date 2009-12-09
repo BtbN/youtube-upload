@@ -35,7 +35,7 @@ www.youtube.com/watch?v=pxzZ-fYjeYs
 * Get available categories:
 
 {{{
-$ python youtube-upload/youtube-upload.py -c
+$ youtube-upload -c
 Tech Education Animals People Travel Entertainment Howto Sports Autos Music News Games Nonprofit Comedy Film
 }}}
 
