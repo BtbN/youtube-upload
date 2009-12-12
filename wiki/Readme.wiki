@@ -25,11 +25,20 @@ $ sudo chmod +x /usr/local/bin/youtube-upload
 
 = Usage examples =
 
-* Upload a video:
+* Upload a small video:
 
 {{{
 $ youtube-upload myemail@gmail.com mypassword somefile.flv "Title" "Description" "Category" "tag1, tag2"
 www.youtube.com/watch?v=pxzZ-fYjeYs
+}}}
+
+* Upload a big video:
+
+{{{
+$ youtube-upload myemail@gmail.com mypassword somebigfile.flv "Title" "Description" "Category" "tag1, tag2"
+www.youtube.com/watch?v=pxzZ-fYjeYs
+www.youtube.com/watch?v=fe1s43-f1f8
+www.youtube.com/watch?v=9fgqref13ww
 }}}
 
 * Get available categories:
