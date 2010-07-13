@@ -55,6 +55,17 @@ $ cd youtube-upload-VERSION
 $ python youtube_upload/youtube_upload.py ...
 }}}
 
+= Upload with curl =
+
+The standard Google API used to upload the video does not give any feedback on the transfer status nor allow the user to tweak the process (limit speed, use a proxy, ...). Fortunately, the API provides an altenative upload method using a standard HTTP POST request. Therefore, external applications can be easily used. 
+
+The source code includes an example on how to upload a video using *curl*. For example, this command would upload a _somevideo.flv_ with a limit rate of 100KBytes:
+
+{{{
+$ youtube-upload myemail@gmail.com mypassword somevideo.flv "Title" "Description" |
+    bash examples/upload_with_curl.sh --limit-rate 100k
+}}}
+
 = Feedback =
 
 To report a bug, propose an enhancement or even make a question, open a  [http://code.google.com/p/youtube-upload/issues/ new issue]. 
