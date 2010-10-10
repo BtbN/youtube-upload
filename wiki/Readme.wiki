@@ -13,14 +13,21 @@ _Youtube-upload_ should work on any platform (GNU/Linux, BSD, OS X, Windows, ...
 
 = Download & Install =
 
-  * [http://code.google.com/p/youtube-upload/downloads/list From sources] (UNIX instructions):
+  * [http://code.google.com/p/youtube-upload/downloads/list Stable release]:
 
 {{{
 $ wget http://youtube-upload.googlecode.com/files/youtube-upload-VERSION.tgz
 $ tar xvzf youtube-upload-VERSION.tgz
 $ cd youtube-upload-VERSION
-$ sudo cp youtube-upload/youtube-upload.py /usr/local/bin/youtube-upload
-$ sudo chmod +x /usr/local/bin/youtube-upload
+$ sudo python setup.py install
+}}}
+
+  * [http://code.google.com/p/youtube-upload/source/checkout From repository]:
+
+{{{
+$ svn checkout http://youtube-upload.googlecode.com/svn/trunk/ youtube-upload
+$ cd youtube-upload
+$ sudo python setup.py install
 }}}
 
 = Usage examples =
@@ -57,9 +64,9 @@ $ python youtube_upload/youtube_upload.py ...
 
 * Upload with _curl_
 
-The standard Google API does not give any feedback on the upload process nor allow the user to tweak it (limit the speed, use a proxy, ...). Fortunately, the API also provides an alternative upload method, a standard HTTP POST request, so we can easily use third-party applications to do the actual upload. 
+The Youtube API does not provide any feedback on the upload process nor allow the user to tweak it (limit the speed, use a proxy, ...). Fortunately, the API does provide an alternative upload  method (a HTTP POST), so we can easily use third-party applications to do the actual upload. 
 
-The source code includes an example ([http://code.google.com/p/youtube-upload/source/browse/trunk/examples/upload_with_curl.sh examples/upload_with_curl.sh])  that shows how to upload a video using _curl_. This command (UNIX-like operating systems) would upload _somevideo.flv_ with a limit rate of 100KBytes (notice the _-u_ option in _youtube-upload_):
+The source code includes an example ([http://code.google.com/p/youtube-upload/source/browse/trunk/examples/upload_with_curl.sh examples/upload_with_curl.sh]) that shows how to upload a video using _curl_. This command (UNIX-like operating systems only) would upload _somevideo.flv_ with a limit rate of 100KBytes (notice the _-u_ option in _youtube-upload_):
 
 {{{
 $ youtube-upload -u myemail@gmail.com mypassword somevideo.flv "Title" "Description" "Category" "tag1,tag2" |
