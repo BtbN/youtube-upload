@@ -68,4 +68,4 @@ $ youtube-upload -u myemail@gmail.com mypassword somevideo.flv "Title" "Descript
 
 = Feedback =
 
-To report a bug, propose an enhancement or even make a question, open a  [http://code.google.com/p/youtube-upload/issues/ new issue]. 
+Use the [http://code.google.com/p/youtube-upload/issues/ issues tracket] to report bugs.
