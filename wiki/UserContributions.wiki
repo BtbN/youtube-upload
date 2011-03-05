@@ -1,6 +1,6 @@
 #summary User contributions
 
-= Monitoring
+= Monitoring =
 
 Uses 'inoticoming' to efficiently monitor a directory and call an upload script (by gavingc).
 
