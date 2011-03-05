@@ -1,0 +1,7 @@
+#summary User contributions
+
+= Monitoring
+
+Uses 'inoticoming' to efficiently monitor a directory and call an upload script (by gavingc).
+
+https://gist.github.com/856236/
