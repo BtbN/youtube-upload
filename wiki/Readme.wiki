@@ -29,20 +29,14 @@ $ sudo python setup.py install
 
 = Usage examples =
 
-* Upload a small video:
+* Upload some videos:
 
 {{{
-$ youtube-upload myemail@gmail.com mypassword somevideo.avi "Title" "Description" "Category" "tag1, tag2"
+$ youtube-upload --email=myemail@gmail.com --password=mypassword 
+                 --title="A.S. Mutter" --description="A.S. Mutter plays Beethoven" 
+                 --category="Music" --keywords="mutter, beethoven" anne_sophie_mutter.flv anne_sophie_mutter2.flv
 www.youtube.com/watch?v=pxzZ-fYjeYs
-}}}
-
-* Upload a big video:
-
-{{{
-$ youtube-upload myemail@gmail.com mypassword somebigvideo.flv "Title" "Description" "Category" "tag1, tag2"
-www.youtube.com/watch?v=pxzZ-fYjeYs
-www.youtube.com/watch?v=fe1s43-f1f8
-www.youtube.com/watch?v=9fgqref13ww
+www.youtube.com/watch?v=pxzsdfgsdfg
 }}}
 
 * Get available categories:
@@ -57,6 +51,17 @@ If you don't want (or you can't) install software on the computer, run it direct
 {{{
 $ cd youtube-upload-VERSION
 $ python youtube_upload/youtube_upload.py ...
+}}}
+
+* Split a video with _ffmpeg_
+
+Youtube currently limits videos > 2Gb and >15' (for some users). Use the example Bash script to split it:
+
+{{{
+$ bash examples/split_video_for_youtube.sh video.avi
+video.part1.avi
+video.part2.avi
+video.part3.avi
 }}}
 
 * Upload with _curl_
