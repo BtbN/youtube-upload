@@ -72,12 +72,6 @@ video.part2.avi
 video.part3.avi
 }}}
 
-In one step:
-
-{{{
-$ bash examples/split_video_for_youtube.sh video.avi | xargs youtube-upload [OPTIONS]
-}}}
-
 * Upload videos with _curl_
 
 The Youtube API does not provide any feedback on the upload process nor allow the user to tweak it (limit the speed, use a proxy, ...). Fortunately, the API does provide an alternative upload  method (a HTTP POST), so we can easily use third-party applications to do the actual upload. 
