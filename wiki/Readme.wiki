@@ -5,7 +5,7 @@ _Youtube-upload_ is a command-line script that uploads videos to Youtube. If a v
 
 = Dependencies =
 
-  * [http://www.python.org python] (>= 2.5)
+  * [http://www.python.org python] (>= 2.6)
   * [http://code.google.com/p/gdata-python-client python-gdata] (>= 1.2.4)
 
 = Download & Install =
