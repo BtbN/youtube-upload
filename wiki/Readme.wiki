@@ -42,14 +42,14 @@ $ python youtube_upload/youtube_upload.py ...
 {{{
 $ youtube-upload --email=myemail@gmail.com --password=mypassword 
                  --title="A.S. Mutter" --description="A.S. Mutter plays Beethoven" 
-                 --category="Music" --keywords="mutter, beethoven" anne_sophie_mutter.flv
+                 --category=Music --keywords="mutter, beethoven" anne_sophie_mutter.flv
 www.youtube.com/watch?v=pxzZ-fYjeYs
 }}}
 
 * Upload a splited video:
 
 {{{
-$ youtube-upload [OPTIONS] video.part1.avi video.part2.avi
+$ youtube-upload [OPTIONS] --title="TITLE" video.part1.avi video.part2.avi
 www.youtube.com/watch?v=pxzZ-fYjeYs # title: TITLE [1/2]
 www.youtube.com/watch?v=pxzZ-fYsdff # title: TITLE [2/2]
 }}}
@@ -84,4 +84,4 @@ $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_cu
 
 = Feedback =
 
-Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] to report bugs or suggest improvements.
+Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] to report bugs or suggest improvements. If your problem relates to splitting videos with ffmpeg you may better refer to specialized forums or mailing lists.
