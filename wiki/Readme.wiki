@@ -56,6 +56,14 @@ www.youtube.com/watch?v=pxzZ-fYjeYs # title: TITLE [1/2]
 www.youtube.com/watch?v=pxzZ-fYsdff # title: TITLE [2/2]
 }}}
 
+* Add a video to a playlist:
+
+{{{
+$ youtube-upload [OPTIONS] --add-to-playlist=http://gdata.youtube.com/feeds/api/playlists/7986C428284A40A1 http://www.youtube.com/watch?v=Zpqu97l3G1U
+}}}
+
+Note that the argument is the video URL (not a local file) and the playlist URL is the feeds one (not the usual playlist URL).
+
 * Get available categories:
 
 {{{
