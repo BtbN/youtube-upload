@@ -98,4 +98,4 @@ $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_cu
 
 = Feedback =
 
-Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] to report bugs or suggest improvements. If your problem relates to splitting videos with ffmpeg you may better refer to specialized forums or mailing lists.
+Please DO NOT USE the wiki to report problems. Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] instead to report bugs or suggest improvements. 
