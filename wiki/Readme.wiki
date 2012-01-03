@@ -68,7 +68,7 @@ www.youtube.com/watch?v=pxzZ-fYsdff # title: TITLE [2/2]
 $ youtube-upload [OPTIONS] --add-to-playlist=http://gdata.youtube.com/feeds/api/playlists/7986C428284A40A1 http://www.youtube.com/watch?v=Zpqu97l3G1U
 }}}
 
-Note that the argument is the video URL (not a local file) and the playlist URL is the feeds one (not the usual playlist URL).
+Note that the argument must be the video URL (not a local file) and the playlist is the URL of the feed (with no prefix "PL").
 
 * Get available categories:
 
