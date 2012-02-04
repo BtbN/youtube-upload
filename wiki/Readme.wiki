@@ -73,7 +73,7 @@ Note that the argument must be the video URL (not a local file) and the playlist
 * Get available categories:
 
 {{{
-$ youtube-upload -c
+$ youtube-upload --get-categories
 Tech Education Animals People Travel Entertainment Howto Sports Autos Music News Games Nonprofit Comedy Film
 }}}
 
