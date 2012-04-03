@@ -50,7 +50,9 @@ www.youtube.com/watch?v=pxzZ-fYjeYs
 
 * Upload the video using the Youtube API:
 
+{{{
 $ youtube-upload --api-upload [OTHER OPTIONS] file.flv
+}}}
 
 If you set explicitly the {{{--api-upload}}} options or {{{pycurl}}} isn't installed, the original Youtube API will be used to upload the video file. This method is not recommended because it does not shows the nice progressbar.
 
