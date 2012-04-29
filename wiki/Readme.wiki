@@ -1,7 +1,7 @@
 #labels Featured
 = Introduction =
 
-_Youtube-upload_ is a command-line script that uploads videos to Youtube. If a video does not comply with Youtube limitations (<2Gb and <15') you must split it before using ffmpeg or any other tool. _Youtube-upload_ should work on any platform (GNU/Linux, BSD, OS X, Windows, ...) that runs Python.
+_Youtube-upload_ is a command-line script that uploads videos to Youtube. If a video does not comply with Youtube limitations (<15mins for a normal user) you must split it before using ffmpeg or any other tool. _Youtube-upload_ should work on any platform (GNU/Linux, BSD, OS X, Windows, ...) that runs Python.
 
 = Dependencies =
 
