@@ -98,6 +98,10 @@ The script uses pycurl by default (when available) to upload the video, but if y
 $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_curl.sh --limit-rate 100k
 }}}
 
+= Caveats =
+
+Before uploading a youtube using the script try to upload one manually so you make sure you have a user and channel enabled. See issue57 for more details.
+
 = Feedback =
 
 Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] instead to report bugs or suggest improvements.
