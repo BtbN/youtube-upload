@@ -100,7 +100,7 @@ $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_cu
 
 = Caveats =
 
-Before uploading a youtube using the script try to upload one manually so you make sure you have a user and channel enabled. See issue57 for more details.
+Before you upload a video using the script, do it manually to make sure everything is ok (you have a valid user/password and an associated channel). See issue57 for more details.
 
 = Feedback =
 
