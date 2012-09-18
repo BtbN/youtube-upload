@@ -107,6 +107,17 @@ The script uses pycurl by default (when available) to upload the video, but if y
 $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_curl.sh --limit-rate 100k
 }}}
 
+* Use a HTTP proxy
+
+Set environment variables *http_proxy* and *https_proxy*:
+
+{{{
+export http_proxy=http://user:password@host:port
+export https_proxy=http://user:password@host:port
+$ youtube-upload ....
+}}}
+
+
 = Caveats =
 
 Before you upload a video using the script, do it manually to make sure everything is ok (you have a valid user/password and an associated channel). See issue57 for more details.
