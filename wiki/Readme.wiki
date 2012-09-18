@@ -112,8 +112,8 @@ $ youtube-upload --get-upload-form-info [OPTIONS] | bash examples/upload_with_cu
 Set environment variables *http_proxy* and *https_proxy*:
 
 {{{
-export http_proxy=http://user:password@host:port
-export https_proxy=http://user:password@host:port
+$ export http_proxy=http://user:password@host:port
+$ export https_proxy=http://user:password@host:port
 $ youtube-upload ....
 }}}
 
