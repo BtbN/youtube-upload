@@ -52,7 +52,7 @@ www.youtube.com/watch?v=pxzZ-fYjeYs
 
 {{{
 $ youtube-upload --email=myemail@gmail.com --password=mypassword \
-                 --title="A.S. Mutter" --description="$(< \description.txt)" 
+                 --title="A.S. Mutter" --description="$(< \description.txt)" \
                  --category=Music --keywords="mutter, beethoven" anne_sophie_mutter.flv
 www.youtube.com/watch?v=pxzZ-fYjeYs
 }}}
