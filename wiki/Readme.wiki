@@ -130,7 +130,12 @@ $ youtube-upload ....
 
 = Caveats =
 
+== Validate your credentials == 
 Before you upload a video using the script, do it manually to make sure everything is ok (you have a valid user/password and an associated channel). See issue57 for more details.
+
+== Using two-step verification ==
+
+If you are using [https://support.google.com/accounts/answer/180744?hl=en two-step verification] ssue an application specific password and use it in the script as if it was your acutal password ([https://code.google.com/p/youtube-upload/issues/detail?id=111 issue111]).
 
 = Feedback =
 
