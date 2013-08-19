@@ -3,7 +3,3 @@
  * Use _inoticoming_ to efficiently monitor a directory and call an upload script (by Gavin Kromhout).
 
 https://gist.github.com/856236/
-
- * Automatically upload a bunch of videos, split them, and organize them by playlist (by Arie Skliarouk)
-
-http://t11.mine.nu/youtube-upload_all.sh
