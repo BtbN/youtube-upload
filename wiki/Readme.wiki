@@ -142,6 +142,10 @@ Before you upload a video using the script, do it manually to make sure everythi
 
 If you are using [https://support.google.com/accounts/answer/180744?hl=en two-step verification] issue an application-specific password and use it in the script as if it was your real password. See [https://code.google.com/p/youtube-upload/issues/detail?id=111 issue111] for more details.
 
+== Progressbar ==
+
+You need both packages *python-progressbar* and *pycurl* installed to see the progress bar when uploading a video.
+
 = Feedback =
 
 Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] instead to report bugs or suggest improvements.
