@@ -148,4 +148,4 @@ You need both packages *python-progressbar* and *pycurl* installed to see the pr
 
 = Feedback =
 
-Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] instead to report bugs or suggest improvements.
+Use the [http://code.google.com/p/youtube-upload/issues/ issues tracker] to report bugs or suggest improvements.
