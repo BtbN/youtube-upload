@@ -131,7 +131,9 @@ $ youtube-upload ....
 
 Set new title for video:
 
+{{{
 $ youtube-upload --email=EMAIL --password=PASSWORD --update-metadata --title "new title" www.youtube.com/watch?v=pxzZ-fYjeYs
+}}}
 
 = Caveats =
 
