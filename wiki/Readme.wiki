@@ -117,6 +117,12 @@ $ youtube-upload --private ...
 $ youtube-upload --unlisted ...
 }}}
 
+* Get password from standard input
+
+{{{
+$ cat password.txt | youtube-upload -p - ....
+}}}
+
 * Use a HTTP proxy
 
 Set environment variables *http_proxy* and *https_proxy*:
@@ -125,6 +131,7 @@ Set environment variables *http_proxy* and *https_proxy*:
 $ export http_proxy=http://user:password@host:port
 $ export https_proxy=http://user:password@host:port
 $ youtube-upload ....
+
 }}}
 
 * Update metadata (title or description).
