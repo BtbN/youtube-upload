@@ -36,7 +36,6 @@ $ cd youtube-upload-VERSION
 $ python youtube_upload/youtube_upload.py ...
 }}}
 
-
 = Usage examples =
 
 * Upload a video:
@@ -150,6 +149,12 @@ Before you upload a video using the script, do it manually to make sure everythi
 == Using two-step verification ==
 
 If you are using [https://support.google.com/accounts/answer/180744?hl=en two-step verification] issue an application-specific password and use it in the script as if it was your real password. See [https://code.google.com/p/youtube-upload/issues/detail?id=111 issue111] for more details.
+
+== Sign in using App Passwords ==
+
+An App password is a 16-digit passcode that gives an app or device permission to access your Google Account. If you use 2-Step-Verification and are seeing a “password incorrect” error when trying to access your Google Account, an App password may solve the problem. 
+
+https://support.google.com/accounts/answer/185833?hl=en
 
 == Progressbar ==
 
